@@ -1,5 +1,5 @@
 {
-  "name": "pnv-calendar",
+  "name": "@pnodev/pnv-calendar",
   "version": "0.1.0",
   "description": "",
   "main": "dist/pnv-calendar.ssr.js",
