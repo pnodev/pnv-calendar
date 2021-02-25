@@ -2,11 +2,14 @@
 const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
 export default {
-	computed: {
-		weekdays() {
-			return WEEKDAYS;
-		},
-	},
+  props: {
+    weekdays: {
+      type: Array,
+      default(){
+        return WEEKDAYS;
+      }
+    }
+  },
 	render() {
 		return this.$scopedSlots.default({
 			weekdays: this.weekdays,
