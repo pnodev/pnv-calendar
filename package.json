@@ -1,6 +1,6 @@
 {
   "name": "@pnodev/pnv-calendar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/pnv-calendar.ssr.js",
   "browser": "dist/pnv-calendar.esm.js",
